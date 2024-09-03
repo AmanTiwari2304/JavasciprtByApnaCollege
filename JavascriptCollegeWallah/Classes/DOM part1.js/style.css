@@ -1,0 +1,28 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+/* h1{
+    background-color: rgb(4, 35, 35);
+    color: white;
+
+}
+h3{
+    background-color: sandybrown;
+    color: azure;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+    background-color: aquamarine;
+}
