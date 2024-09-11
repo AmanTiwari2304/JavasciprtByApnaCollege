@@ -88,3 +88,4 @@ let firstName = prompt("Enter your name : ");
 console.log(firstName);
 
 alert("How are you ?");
+

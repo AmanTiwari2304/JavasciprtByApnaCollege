@@ -1,0 +1,10 @@
+let msg = "  This message is about string method ";
+console.log(msg.trim());
+console.log(msg.toUpperCase());
+console.log(msg.toLowerCase());
+console.log(msg.indexOf("about"));
+console.log(msg.indexOf("message"));
+console.log(msg.trim().indexOf("message"));
+console.log(msg.replace("message","comment"));
+console.log(msg.replace("a","e"));
+console.log(msg.repeat(3));
