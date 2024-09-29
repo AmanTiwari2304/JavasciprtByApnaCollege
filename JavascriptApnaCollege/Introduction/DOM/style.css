@@ -1,6 +1,22 @@
 body {
   font-family: Arial;
 }
+.red{
+  color: red;
+}
+.blue{
+  color:blue;
+}
+.thirdclass{
+  background-color: pink;
+  border:1px solid black;
+}
+.green{
+  color: green;
+}
+.underline{
+  text-decoration: underline;
+}
 
 #mainImg {
   width: 35%;
