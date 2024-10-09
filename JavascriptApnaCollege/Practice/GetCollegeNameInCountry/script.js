@@ -1,6 +1,5 @@
 let url = "http://universities.hipolabs.com/search?name=";
 let btn = document.querySelector("button");
-
 btn.addEventListener("click", async() =>{
     let country = document.querySelector("input").value
     let collArr = await getCollege(country);
@@ -15,7 +14,6 @@ function show(collArr) {
       list.appendChild(li);
     }
 }
-
 async function getCollege(country) {
     try {
       let res =  await axios.get(url + country);

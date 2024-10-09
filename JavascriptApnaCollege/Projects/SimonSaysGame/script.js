@@ -17,19 +17,18 @@ document.addEventListener("keypress",function() {
     }
 });
 
-function gameFlash(box-style) {
+function gameFlash(boxStyle) {
     box-style.classList.add("flash");
     setTimeout(function () {
         box-style.classList.remove("flash");
     },250);
 }
 
-function userFlash(box-style) {
+function userFlash(boxStyle) {
     box-style.classList.add("userflash");
     setTimeout(function () {
         box-style.classList.remove("userflash");
-    },250);
-}
+    },250);S
 
 function levelUp() {
     level++;
@@ -51,7 +50,7 @@ function btnPress() {
     
 }
 
-let allBtns = document.querySelectorAll(".box-style");
+let allBtns = document.querySelectorAll(".boxStyle");
 for(btn of allBtns) {
     btn.addEventListener("click",btnPress);
-}
+};
